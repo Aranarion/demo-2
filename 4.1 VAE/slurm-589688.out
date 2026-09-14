@@ -1,0 +1,22 @@
+Using device: cuda
+Epoch   1/20 | beta 0.100 | ELBO loss 5693.34 | recon 5686.16 | KL 71.84
+Epoch   2/20 | beta 0.200 | ELBO loss 4257.81 | recon 4252.53 | KL 26.44
+Epoch   3/20 | beta 0.300 | ELBO loss 4237.37 | recon 4229.36 | KL 26.69
+Epoch   4/20 | beta 0.400 | ELBO loss 4231.02 | recon 4220.85 | KL 25.41
+Epoch   5/20 | beta 0.500 | ELBO loss 4220.68 | recon 4212.28 | KL 16.81
+Epoch   6/20 | beta 0.600 | ELBO loss 4211.11 | recon 4204.35 | KL 11.27
+Epoch   7/20 | beta 0.700 | ELBO loss 4209.15 | recon 4202.10 | KL 10.07
+Epoch   8/20 | beta 0.800 | ELBO loss 4210.62 | recon 4202.53 | KL 10.11
+Epoch   9/20 | beta 0.900 | ELBO loss 4206.79 | recon 4199.11 | KL 8.54
+Epoch  10/20 | beta 1.000 | ELBO loss 4204.18 | recon 4196.30 | KL 7.88
+Epoch  11/20 | beta 1.000 | ELBO loss 4200.71 | recon 4193.50 | KL 7.20
+Epoch  12/20 | beta 1.000 | ELBO loss 4198.93 | recon 4191.90 | KL 7.03
+Epoch  13/20 | beta 1.000 | ELBO loss 4196.20 | recon 4189.41 | KL 6.79
+Epoch  14/20 | beta 1.000 | ELBO loss 4195.08 | recon 4188.16 | KL 6.93
+Epoch  15/20 | beta 1.000 | ELBO loss 4194.43 | recon 4187.46 | KL 6.97
+Epoch  16/20 | beta 1.000 | ELBO loss 4191.67 | recon 4184.70 | KL 6.97
+Epoch  17/20 | beta 1.000 | ELBO loss 4192.82 | recon 4185.74 | KL 7.08
+Epoch  18/20 | beta 1.000 | ELBO loss 4189.60 | recon 4182.80 | KL 6.80
+Epoch  19/20 | beta 1.000 | ELBO loss 4190.42 | recon 4183.16 | KL 7.25
+Epoch  20/20 | beta 1.000 | ELBO loss 4186.49 | recon 4179.67 | KL 6.82
+Saved manifold grid to ./vae_outputs/manifold.png
