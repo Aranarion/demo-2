@@ -1,0 +1,51 @@
+/home/Student/s4809233/miniconda3/envs/torch/lib/python3.13/site-packages/torch/utils/data/dataloader.py:626: UserWarning: This DataLoader will create 4 worker processes in total. Our suggested max number of worker in current system is 1, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(
+Using device: cuda
+Discovered 4 classes with raw values [0, 85, 170, 255]
+Epoch   1/30 | loss 0.1943 (CE 0.0881 Dice 0.1063) | val DSC: c0=0.998, c1=0.876, c2=0.915, c3=0.954 | mean 0.9357
+  -> saved new best checkpoint (mean DSC 0.9357) to ./unet_outputs/unet_oasis.pt
+Epoch   2/30 | loss 0.0884 (CE 0.0386 Dice 0.0497) | val DSC: c0=0.999, c1=0.925, c2=0.948, c3=0.971 | mean 0.9609
+  -> saved new best checkpoint (mean DSC 0.9609) to ./unet_outputs/unet_oasis.pt
+Epoch   3/30 | loss 0.0793 (CE 0.0349 Dice 0.0444) | val DSC: c0=0.999, c1=0.931, c2=0.949, c3=0.970 | mean 0.9621
+  -> saved new best checkpoint (mean DSC 0.9621) to ./unet_outputs/unet_oasis.pt
+Epoch   4/30 | loss 0.0750 (CE 0.0330 Dice 0.0420) | val DSC: c0=0.999, c1=0.925, c2=0.948, c3=0.971 | mean 0.9608
+Epoch   5/30 | loss 0.0723 (CE 0.0317 Dice 0.0406) | val DSC: c0=0.999, c1=0.911, c2=0.936, c3=0.967 | mean 0.9534
+Epoch   6/30 | loss 0.0685 (CE 0.0299 Dice 0.0385) | val DSC: c0=0.999, c1=0.929, c2=0.949, c3=0.971 | mean 0.9622
+  -> saved new best checkpoint (mean DSC 0.9622) to ./unet_outputs/unet_oasis.pt
+Epoch   7/30 | loss 0.0659 (CE 0.0288 Dice 0.0371) | val DSC: c0=0.999, c1=0.923, c2=0.946, c3=0.970 | mean 0.9595
+Epoch   8/30 | loss 0.0638 (CE 0.0279 Dice 0.0359) | val DSC: c0=0.999, c1=0.932, c2=0.945, c3=0.963 | mean 0.9597
+Epoch   9/30 | loss 0.0621 (CE 0.0271 Dice 0.0350) | val DSC: c0=0.999, c1=0.940, c2=0.952, c3=0.970 | mean 0.9655
+  -> saved new best checkpoint (mean DSC 0.9655) to ./unet_outputs/unet_oasis.pt
+Epoch  10/30 | loss 0.0608 (CE 0.0265 Dice 0.0342) | val DSC: c0=0.999, c1=0.917, c2=0.946, c3=0.971 | mean 0.9584
+Epoch  11/30 | loss 0.0592 (CE 0.0258 Dice 0.0334) | val DSC: c0=0.999, c1=0.939, c2=0.953, c3=0.972 | mean 0.9660
+  -> saved new best checkpoint (mean DSC 0.9660) to ./unet_outputs/unet_oasis.pt
+Epoch  12/30 | loss 0.0585 (CE 0.0255 Dice 0.0330) | val DSC: c0=0.999, c1=0.940, c2=0.953, c3=0.973 | mean 0.9665
+  -> saved new best checkpoint (mean DSC 0.9665) to ./unet_outputs/unet_oasis.pt
+Epoch  13/30 | loss 0.0576 (CE 0.0251 Dice 0.0325) | val DSC: c0=0.999, c1=0.922, c2=0.936, c3=0.962 | mean 0.9550
+Epoch  14/30 | loss 0.0566 (CE 0.0247 Dice 0.0319) | val DSC: c0=0.999, c1=0.938, c2=0.949, c3=0.968 | mean 0.9638
+Epoch  15/30 | loss 0.0554 (CE 0.0241 Dice 0.0313) | val DSC: c0=0.999, c1=0.939, c2=0.947, c3=0.967 | mean 0.9633
+Epoch  16/30 | loss 0.0543 (CE 0.0236 Dice 0.0307) | val DSC: c0=1.000, c1=0.940, c2=0.953, c3=0.974 | mean 0.9665
+  -> saved new best checkpoint (mean DSC 0.9665) to ./unet_outputs/unet_oasis.pt
+Epoch  17/30 | loss 0.0537 (CE 0.0234 Dice 0.0303) | val DSC: c0=1.000, c1=0.943, c2=0.954, c3=0.972 | mean 0.9669
+  -> saved new best checkpoint (mean DSC 0.9669) to ./unet_outputs/unet_oasis.pt
+Epoch  18/30 | loss 0.0532 (CE 0.0232 Dice 0.0301) | val DSC: c0=1.000, c1=0.941, c2=0.953, c3=0.973 | mean 0.9665
+Epoch  19/30 | loss 0.0524 (CE 0.0228 Dice 0.0296) | val DSC: c0=0.999, c1=0.938, c2=0.949, c3=0.967 | mean 0.9635
+Epoch  20/30 | loss 0.0518 (CE 0.0225 Dice 0.0293) | val DSC: c0=0.999, c1=0.940, c2=0.953, c3=0.972 | mean 0.9662
+Epoch  21/30 | loss 0.0513 (CE 0.0223 Dice 0.0290) | val DSC: c0=0.999, c1=0.937, c2=0.950, c3=0.973 | mean 0.9651
+Epoch  22/30 | loss 0.0504 (CE 0.0219 Dice 0.0285) | val DSC: c0=1.000, c1=0.939, c2=0.954, c3=0.973 | mean 0.9664
+Epoch  23/30 | loss 0.0503 (CE 0.0219 Dice 0.0284) | val DSC: c0=0.999, c1=0.942, c2=0.955, c3=0.974 | mean 0.9674
+  -> saved new best checkpoint (mean DSC 0.9674) to ./unet_outputs/unet_oasis.pt
+Epoch  24/30 | loss 0.0491 (CE 0.0214 Dice 0.0277) | val DSC: c0=1.000, c1=0.942, c2=0.954, c3=0.973 | mean 0.9671
+Epoch  25/30 | loss 0.0484 (CE 0.0211 Dice 0.0273) | val DSC: c0=1.000, c1=0.937, c2=0.954, c3=0.974 | mean 0.9660
+Epoch  26/30 | loss 0.0481 (CE 0.0210 Dice 0.0272) | val DSC: c0=1.000, c1=0.941, c2=0.953, c3=0.973 | mean 0.9667
+Epoch  27/30 | loss 0.0476 (CE 0.0208 Dice 0.0268) | val DSC: c0=1.000, c1=0.935, c2=0.951, c3=0.974 | mean 0.9647
+Epoch  28/30 | loss 0.0472 (CE 0.0206 Dice 0.0266) | val DSC: c0=1.000, c1=0.943, c2=0.955, c3=0.973 | mean 0.9674
+Epoch  29/30 | loss 0.0467 (CE 0.0204 Dice 0.0263) | val DSC: c0=1.000, c1=0.943, c2=0.954, c3=0.973 | mean 0.9673
+Epoch  30/30 | loss 0.0461 (CE 0.0201 Dice 0.0260) | val DSC: c0=1.000, c1=0.942, c2=0.953, c3=0.972 | mean 0.9667
+Final TEST set per-class DSC:
+  class 0: 0.9994
+  class 1: 0.9451
+  class 2: 0.9538
+  class 3: 0.9746
+  mean: 0.9682
+Saved prediction visualisation to ./unet_outputs/segmentation_results.png
