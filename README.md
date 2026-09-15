@@ -20,6 +20,7 @@ demo-2/
     ├── final_samples.png
     ├── loss_curve.png
     └── slurm-590780.out
+```
 ---
 
 ## 4.1 — Variational Autoencoder (`4.1 VAE/`)
