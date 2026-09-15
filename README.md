@@ -20,10 +20,6 @@ demo-2/
     ├── final_samples.png
     ├── loss_curve.png
     └── slurm-590780.out
-```
-
-All three tasks share the same dataset family (OASIS keras PNG slices) and a common project structure: a PyTorch `Dataset`, model definition(s), a `train()` loop with mixed-precision support, a `main()` with `argparse` CLI flags, and a `run_*.sh` SLURM script for GPU cluster submission.
-
 ---
 
 ## 4.1 — Variational Autoencoder (`4.1 VAE/`)
@@ -114,16 +110,3 @@ python3 GAN.py --epochs 90
 | `--epochs` | `90` |
 | `--n_critic` | `3` |
 | `--lambda_gp` | `10.0` |
-
----
-
-## Environment
-
-All three scripts expect a `conda` environment named `torch` with PyTorch (+CUDA), `torchvision`, `numpy`, `matplotlib`, and `PIL` installed, and are set up to submit as SLURM jobs (`--gres=gpu:1`) on a cluster with the OASIS dataset preprocessed under `/home/groups/comp3710/OASIS/`. Each script also runs standalone on CPU (falls back automatically via `torch.cuda.is_available()`), just without mixed precision.
-
-```bash
-conda activate torch
-cd "4.1 VAE"   && python3 VAE.py --epochs 5      # quick smoke test
-cd "4.2 UNet"  && python3 unet.py --epochs 5
-cd "4.3 GAN"   && python3 GAN.py --epochs 5
-```
