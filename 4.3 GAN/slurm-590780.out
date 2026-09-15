@@ -1,0 +1,156 @@
+Using device: cuda
+/home/Student/s4809233/miniconda3/envs/torch/lib/python3.13/site-packages/torch/autograd/graph.py:824: UserWarning: Attempting to run cuBLAS, but there was no current CUDA context! Attempting to set the primary context... (Triggered internally at /pytorch/aten/src/ATen/cuda/CublasHandlePool.cpp:181.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+Epoch   1/90 | critic loss -14.4696 | generator loss 1.6972
+Epoch   2/90 | critic loss -7.6607 | generator loss -3.2857
+Epoch   3/90 | critic loss -5.6902 | generator loss -4.2840
+  -> diversity score (mean pairwise L2, higher = more diverse): 11.649
+  saved ./gan_outputs/samples_epoch_003.png
+Epoch   4/90 | critic loss -4.4158 | generator loss -5.0131
+Epoch   5/90 | critic loss -3.7245 | generator loss -5.4556
+Epoch   6/90 | critic loss -3.3586 | generator loss -5.6236
+  -> diversity score (mean pairwise L2, higher = more diverse): 12.597
+  saved ./gan_outputs/samples_epoch_006.png
+Epoch   7/90 | critic loss -3.0674 | generator loss -6.0040
+Epoch   8/90 | critic loss -2.8902 | generator loss -6.0975
+Epoch   9/90 | critic loss -2.7321 | generator loss -6.4379
+  -> diversity score (mean pairwise L2, higher = more diverse): 12.404
+  saved ./gan_outputs/samples_epoch_009.png
+Epoch  10/90 | critic loss -2.5960 | generator loss -6.6050
+Epoch  11/90 | critic loss -2.4793 | generator loss -6.9611
+Epoch  12/90 | critic loss -2.4189 | generator loss -6.9699
+  -> diversity score (mean pairwise L2, higher = more diverse): 11.455
+  saved ./gan_outputs/samples_epoch_012.png
+Epoch  13/90 | critic loss -2.3671 | generator loss -6.9958
+Epoch  14/90 | critic loss -2.3044 | generator loss -7.0714
+Epoch  15/90 | critic loss -2.2892 | generator loss -7.0232
+  -> diversity score (mean pairwise L2, higher = more diverse): 12.023
+  saved ./gan_outputs/samples_epoch_015.png
+Epoch  16/90 | critic loss -2.2700 | generator loss -7.1964
+Epoch  17/90 | critic loss -2.2567 | generator loss -6.9847
+Epoch  18/90 | critic loss -2.2423 | generator loss -7.1944
+  -> diversity score (mean pairwise L2, higher = more diverse): 12.669
+  saved ./gan_outputs/samples_epoch_018.png
+Epoch  19/90 | critic loss -2.2111 | generator loss -7.2528
+Epoch  20/90 | critic loss -2.2232 | generator loss -7.3109
+Epoch  21/90 | critic loss -2.2533 | generator loss -7.4380
+  -> diversity score (mean pairwise L2, higher = more diverse): 12.044
+  saved ./gan_outputs/samples_epoch_021.png
+Epoch  22/90 | critic loss -2.2501 | generator loss -7.5245
+Epoch  23/90 | critic loss -2.2404 | generator loss -7.6009
+Epoch  24/90 | critic loss -2.2507 | generator loss -7.7562
+  -> diversity score (mean pairwise L2, higher = more diverse): 12.669
+  saved ./gan_outputs/samples_epoch_024.png
+Epoch  25/90 | critic loss -2.2535 | generator loss -8.0449
+Epoch  26/90 | critic loss -2.2819 | generator loss -7.9167
+Epoch  27/90 | critic loss -2.3123 | generator loss -8.0060
+  -> diversity score (mean pairwise L2, higher = more diverse): 12.504
+  saved ./gan_outputs/samples_epoch_027.png
+Epoch  28/90 | critic loss -2.3165 | generator loss -8.2799
+Epoch  29/90 | critic loss -2.3272 | generator loss -8.4132
+Epoch  30/90 | critic loss -2.3486 | generator loss -8.5496
+  -> diversity score (mean pairwise L2, higher = more diverse): 13.059
+  saved ./gan_outputs/samples_epoch_030.png
+Epoch  31/90 | critic loss -2.3471 | generator loss -8.8133
+Epoch  32/90 | critic loss -2.3861 | generator loss -8.9929
+Epoch  33/90 | critic loss -2.3946 | generator loss -9.0961
+  -> diversity score (mean pairwise L2, higher = more diverse): 13.141
+  saved ./gan_outputs/samples_epoch_033.png
+Epoch  34/90 | critic loss -2.4125 | generator loss -9.3915
+Epoch  35/90 | critic loss -2.4404 | generator loss -9.4937
+Epoch  36/90 | critic loss -2.4816 | generator loss -9.6967
+  -> diversity score (mean pairwise L2, higher = more diverse): 12.262
+  saved ./gan_outputs/samples_epoch_036.png
+Epoch  37/90 | critic loss -2.4898 | generator loss -9.7389
+Epoch  38/90 | critic loss -2.5135 | generator loss -10.1270
+Epoch  39/90 | critic loss -2.5416 | generator loss -10.1864
+  -> diversity score (mean pairwise L2, higher = more diverse): 12.898
+  saved ./gan_outputs/samples_epoch_039.png
+Epoch  40/90 | critic loss -2.5608 | generator loss -10.4631
+Epoch  41/90 | critic loss -2.5708 | generator loss -10.5004
+Epoch  42/90 | critic loss -2.6190 | generator loss -10.8058
+  -> diversity score (mean pairwise L2, higher = more diverse): 12.247
+  saved ./gan_outputs/samples_epoch_042.png
+Epoch  43/90 | critic loss -2.6078 | generator loss -11.0631
+Epoch  44/90 | critic loss -2.6226 | generator loss -11.1694
+Epoch  45/90 | critic loss -2.6358 | generator loss -11.4312
+  -> diversity score (mean pairwise L2, higher = more diverse): 12.723
+  saved ./gan_outputs/samples_epoch_045.png
+Epoch  46/90 | critic loss -2.6612 | generator loss -11.6181
+Epoch  47/90 | critic loss -2.6758 | generator loss -11.8570
+Epoch  48/90 | critic loss -2.7232 | generator loss -12.0349
+  -> diversity score (mean pairwise L2, higher = more diverse): 12.361
+  saved ./gan_outputs/samples_epoch_048.png
+Epoch  49/90 | critic loss -2.7362 | generator loss -12.1689
+Epoch  50/90 | critic loss -2.7549 | generator loss -12.2518
+Epoch  51/90 | critic loss -2.7719 | generator loss -12.3325
+  -> diversity score (mean pairwise L2, higher = more diverse): 12.271
+  saved ./gan_outputs/samples_epoch_051.png
+Epoch  52/90 | critic loss -2.7940 | generator loss -12.6914
+Epoch  53/90 | critic loss -2.7906 | generator loss -12.9548
+Epoch  54/90 | critic loss -2.8077 | generator loss -13.0107
+  -> diversity score (mean pairwise L2, higher = more diverse): 12.582
+  saved ./gan_outputs/samples_epoch_054.png
+Epoch  55/90 | critic loss -2.8340 | generator loss -13.2174
+Epoch  56/90 | critic loss -2.8397 | generator loss -13.4421
+Epoch  57/90 | critic loss -2.8696 | generator loss -13.5544
+  -> diversity score (mean pairwise L2, higher = more diverse): 12.278
+  saved ./gan_outputs/samples_epoch_057.png
+Epoch  58/90 | critic loss -2.8933 | generator loss -13.6482
+Epoch  59/90 | critic loss -2.9169 | generator loss -13.8871
+Epoch  60/90 | critic loss -2.8975 | generator loss -14.1743
+  -> diversity score (mean pairwise L2, higher = more diverse): 11.939
+  saved ./gan_outputs/samples_epoch_060.png
+Epoch  61/90 | critic loss -2.9217 | generator loss -14.4431
+Epoch  62/90 | critic loss -2.9287 | generator loss -14.6509
+Epoch  63/90 | critic loss -2.9458 | generator loss -14.7957
+  -> diversity score (mean pairwise L2, higher = more diverse): 12.755
+  saved ./gan_outputs/samples_epoch_063.png
+Epoch  64/90 | critic loss -2.9623 | generator loss -14.9564
+Epoch  65/90 | critic loss -2.9804 | generator loss -15.1213
+Epoch  66/90 | critic loss -3.0278 | generator loss -15.1596
+  -> diversity score (mean pairwise L2, higher = more diverse): 12.627
+  saved ./gan_outputs/samples_epoch_066.png
+Epoch  67/90 | critic loss -2.9940 | generator loss -15.4093
+Epoch  68/90 | critic loss -3.0199 | generator loss -15.5054
+Epoch  69/90 | critic loss -3.0566 | generator loss -15.5979
+  -> diversity score (mean pairwise L2, higher = more diverse): 13.108
+  saved ./gan_outputs/samples_epoch_069.png
+Epoch  70/90 | critic loss -3.0557 | generator loss -15.8176
+Epoch  71/90 | critic loss -3.0498 | generator loss -15.8700
+Epoch  72/90 | critic loss -3.0818 | generator loss -15.9252
+  -> diversity score (mean pairwise L2, higher = more diverse): 11.947
+  saved ./gan_outputs/samples_epoch_072.png
+Epoch  73/90 | critic loss -3.0883 | generator loss -16.3140
+Epoch  74/90 | critic loss -3.0990 | generator loss -16.4845
+Epoch  75/90 | critic loss -3.0926 | generator loss -16.4513
+  -> diversity score (mean pairwise L2, higher = more diverse): 12.062
+  saved ./gan_outputs/samples_epoch_075.png
+Epoch  76/90 | critic loss -3.1227 | generator loss -16.6470
+Epoch  77/90 | critic loss -3.1463 | generator loss -16.8310
+Epoch  78/90 | critic loss -3.1666 | generator loss -16.7773
+  -> diversity score (mean pairwise L2, higher = more diverse): 12.050
+  saved ./gan_outputs/samples_epoch_078.png
+Epoch  79/90 | critic loss -3.1545 | generator loss -16.9782
+Epoch  80/90 | critic loss -3.2017 | generator loss -17.0061
+Epoch  81/90 | critic loss -3.1831 | generator loss -17.1489
+  -> diversity score (mean pairwise L2, higher = more diverse): 12.014
+  saved ./gan_outputs/samples_epoch_081.png
+Epoch  82/90 | critic loss -3.1989 | generator loss -17.3585
+Epoch  83/90 | critic loss -3.1959 | generator loss -17.3796
+Epoch  84/90 | critic loss -3.2029 | generator loss -17.5039
+  -> diversity score (mean pairwise L2, higher = more diverse): 12.120
+  saved ./gan_outputs/samples_epoch_084.png
+Epoch  85/90 | critic loss -3.2205 | generator loss -17.6425
+Epoch  86/90 | critic loss -3.2280 | generator loss -17.7584
+Epoch  87/90 | critic loss -3.2351 | generator loss -17.8770
+  -> diversity score (mean pairwise L2, higher = more diverse): 12.573
+  saved ./gan_outputs/samples_epoch_087.png
+Epoch  88/90 | critic loss -3.2786 | generator loss -17.8005
+Epoch  89/90 | critic loss -3.2659 | generator loss -17.9368
+Epoch  90/90 | critic loss -3.2680 | generator loss -17.9569
+  -> diversity score (mean pairwise L2, higher = more diverse): 12.367
+  saved ./gan_outputs/samples_epoch_090.png
+Saved ./gan_outputs/loss_curve.png
+  saved ./gan_outputs/final_samples.png
+Final diversity score: 13.281
